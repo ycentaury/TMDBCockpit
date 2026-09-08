@@ -14,7 +14,7 @@ from .PluginUtils import WHERE_TMDB_SEARCH, WHERE_TMDB_MOVIELIST
 from .SkinUtils import loadPluginSkin
 
 
-loadPluginSkin()
+loadPluginSkin("ScreenMain")
 
 
 def monkeyPatchAllEPGScreens():
@@ -155,6 +155,16 @@ def Plugins(**__):
             icon="TMDBCockpit.png",
             fnc=main,
             needsRestart=True
-        )
+        ),
     ]
+    try:
+        descriptors += [
+            PluginDescriptor(
+                where=PluginDescriptor.WHERE_SKINCHANGE,
+                fnc=loadPluginSkin
+            )
+        ]
+    except Exception:
+        pass
+
     return descriptors

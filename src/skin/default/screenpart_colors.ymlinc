@@ -1,32 +1,41 @@
 colors:
   children:
     - color:
-        name: "panelBG"
+        name: "backgroundDark"
+        value: "#101010"
+    - color:
+        name: "backgroundMedium"
         value: "#1a1a1a"
     - color:
-        name: "barBG"
-        value: "#101010"
+        name: "backgroundLight"
+        value: "#303030"
     - color:
         name: "separator"
         value: "#404040"
     - color:
-        name: "keyRed"
-        value: "#e0331e"
+        name: "white"
+        value: "#ffffff"
     - color:
-        name: "keyGreen"
+        name: "black"
+        value: "#000000"
+    - color:
+        name: "transparent"
+        value: "#ff000000"
+    - color:
+        name: "gray"
+        value: "#aaaaaa"
+    - color:
+        name: "green"
         value: "#3c9f2a"
     - color:
-        name: "keyYellow"
+        name: "yellow"
         value: "#e0c31e"
     - color:
-        name: "keyBlue"
+        name: "red"
+        value: "#e0331e"
+    - color:
+        name: "cyan"
+        value: "#57ffff"
+    - color:
+        name: "blue"
         value: "#1e4ab5"
-    - color:
-        name: "progressBG"
-        value: "#282828"
-    - color:
-        name: "secondBG"
-        value: "#202020"
-    - color:
-        name: "sliderBG"
-        value: "#303030"

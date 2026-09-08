@@ -1,0 +1,8 @@
+- xmlinc:
+    file: "screenpart_colors.ymlinc"
+- xmlinc:
+    file: "screenpart_fonts.ymlinc"
+- xmlinc:
+    file: "screenpart_ScrollBarStyle.ymlinc"
+- xmlinc:
+    file: "screenpart_defaults.ymlinc"

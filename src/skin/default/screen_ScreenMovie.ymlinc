@@ -1,9 +1,6 @@
 screen:
-  backgroundColor: "panelBG"
-  flags: "wfNoBorder"
   name: "ScreenMovie"
   position: "0,0"
-  resolution: "1920,1080"
   size: "1920,1080"
   children:
     - xmlinc:
@@ -161,7 +158,4 @@ screen:
         size: "360,28"
         transparent: "1"
     - xmlinc:
-        file: "screenpart_BottomBar.ymlinc"
-    - xmlinc:
-        file: "screenpart_ButtonBar.ymlinc"
-        position: "0,$screen_height-48"
+        file: "screenpart_Footer.ymlinc"

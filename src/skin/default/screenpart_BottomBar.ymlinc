@@ -1,8 +1,8 @@
 - eLabel:
     backgroundColor: "separator"
-    position: "0,e-56"
-    size: "e,2"
+    position: "0,$screen_height-56"
+    size: "$screen_width,2"
 - eLabel:
-    backgroundColor: "barBG"
-    position: "0,e-55"
-    size: "e,55"
+    backgroundColor: "backgroundDark"
+    position: "0,$screen_height-55"
+    size: "$screen_width,55"

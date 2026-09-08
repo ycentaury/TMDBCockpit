@@ -144,6 +144,7 @@ class ScreenMovie(MoreOptions, Picture, Screen, HelpableScreen):
         self["backdrop"] = Pixmap()
         self["fsklogo"] = Pixmap()
         self["star"] = Pixmap()
+        self.fsk = {"0": "fsk_0.png", "6": "fsk_6.png", "12": "fsk_12.png", "16": "fsk_16.png", "18": "fsk_18.png"}
 
         HelpableScreen.__init__(self)
         self["actions"] = HelpableActionMap(
@@ -189,8 +190,8 @@ class ScreenMovie(MoreOptions, Picture, Screen, HelpableScreen):
             self["searchinfo"].setText(self.movie)
             path = "/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/star.png"
             self["star"].instance.setPixmap(LoadPixmap(path))
-            path = "/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/fsk_" + \
-                result["fsk"] + ".png"
+            path = "/usr/lib/enigma2/python/Plugins/Extensions/TMDBCockpit/skin/images/" + \
+                self.fsk.get(result["fsk"], "fsk_0.png")
             self["fsklogo"].instance.setPixmap(LoadPixmap(path))
 
             for field, (label, default) in self.fields.items():

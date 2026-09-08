@@ -1,0 +1,4 @@
+- xmlinc:
+    file: "screenpart_BottomBar.ymlinc"
+- xmlinc:
+    file: "screenpart_ButtonBar.ymlinc"

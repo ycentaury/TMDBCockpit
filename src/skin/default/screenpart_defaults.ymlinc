@@ -1,0 +1,5 @@
+- default:
+    tag: "screen"
+    flags: "wfNoBorder"
+    resolution: "1920,1080"
+    backgroundColor: "backgroundMedium"
