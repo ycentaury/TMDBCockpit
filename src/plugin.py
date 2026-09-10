@@ -152,7 +152,7 @@ def Plugins(**__):
                 PluginDescriptor.WHERE_PLUGINMENU,
                 PluginDescriptor.WHERE_EXTENSIONSMENU,
             ],
-            icon="TMDBCockpit.png",
+            icon="plugin.png",
             fnc=main,
             needsRestart=True
         ),

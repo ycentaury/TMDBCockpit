@@ -15,7 +15,6 @@
 		<color name="cyan" value="#57ffff"/>
 		<color name="blue" value="#1e4ab5"/>
 	</colors>
-	<scrollbarstyle backgroundColor="black" borderColor="white" borderWidth="1" foregroundColor="white" mode="showOnDemand" width="10"/>
 	<screen backgroundColor="backgroundMedium" flags="wfNoBorder" name="ScreenMain" position="0,0" resolution="1920,1080" size="1920,1080">
 		<eLabel backgroundColor="backgroundDark" position="0,0" size="1920,55"/>
 		<widget font="Bold;38" position="10,0" render="Label" size="1900,55" source="Title" transparent="1" valign="center" zPosition="1"/>
